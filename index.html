@@ -577,10 +577,11 @@
     
     <h1>Biography</h1>
 
-    <p>I am a graduate student in the Department of Computer Science at University of Wisconsin-Madison looking for full time opportunities starting summer 2020. My research interests include Computer Vision, Deep Learning/Machine Learning and Perception in Autonomous Vehicles.</p>
+    <p>I am a graduate student in the Department of Computer Science at University of Wisconsin-Madison looking for full time opportunities starting summer 2020. My research interests include Computer Vision, Deep Learning/Machine Learning and Perception in Autonomous Vehicles and Big Data Systems.</p>
 
-<p>I&rsquo;m particularly interested in applying Computer Vision to build robust Perception pipeline for autonomous vehicles. I interned at ARGO AI during summer 2019 where, I spent most of my time building Deep LiDAR pipeline (LiDAR based 3D object detection). Also, as a result of my internship, I gained knowledge about end-to-end perception, tracking, prediction and motion planning pipeline for autonomous vehicles. Additionally, I can fluently program in C, C++ and Python. Further, I have experience using Deep Learning frameworks (Tensorflow and Pytorch).</p>
+<p>I interned at ARGO AI during summer 2019 where, I spent most of my time building Deep LiDAR pipeline (LiDAR based 3D object detection). Also, as a result of my internship, I gained knowledge about end-to-end perception, tracking, prediction and motion planning pipeline for autonomous vehicles. Additionally, I can fluently program in C, C++ and Python. Further, I have experience using Deep Learning frameworks (Tensorflow and Pytorch).</p>
 
+<p>Furthermore, I have working knowledge of Cluster Computing frameworks (Batch Analytics, Stream Analytics, Distributed Machine Learning) such as Spark, Map-Reduce, HDFS, GraphX, and Tensorflow.</p>
 
     <div class="row">
 
@@ -594,6 +595,8 @@
           <li>Deep Learning / Machine Learning</li>
           
           <li>Perception in Autonomous Vehicles</li>
+
+          <li>Big Data Systems</li>
           
         </ul>
       </div>
@@ -772,7 +775,7 @@
   
   <div class="col-12 col-sm-4">
     <div class="featurette-icon"><i class="fas fa-server"></i></div>
-    <h3>Big Data System (Hadoop Spark, Storm, Distributed Tensorflow)</h3>
+    <h3>Big Data System (Hadoop Spark, GraphX, Distributed Tensorflow)</h3>
     <p>90%</p>
   </div>
   
@@ -861,7 +864,6 @@
 <li>CS861 Theoretical Foundations of Machine Learning</li>
 <li>CS760 Machine Learning</li>
 <li>CS726 Non-linear Optimization</li>
-<li>CS727 Convex Analysis</li>
 <li>CS761 Mathematical Foundations of Machine Learning(Audit)</li>
 <li>CS744 Big Data Systems</li>
 <li>CS537 Introduction to Operating Systems
@@ -909,6 +911,11 @@
 <li>Applications of Signal Processing to Image and Video (CT Image Reconstruction Algorithms)</li>
 <li>Digital Processing of Speech and Audio Signals</li>
 <li>Linear Algebra</li>
+<li>Advanced Calculus</li>
+<li>Advanced Computer Architecture</li>
+<li>Control Systems</li>
+<li>Microprocessors</li>
+<li>Numerical Methods</li>
 <li>Probability, Random Variables and Random Processes
 <br /></li>
 </ul></div>
@@ -1055,7 +1062,8 @@
 <p>Key Features :</p>
 
 <ul>
-<li>Developed and implemented Deep Learning Models for detecting several brain abnormalities such as Hemorrhage, Lesion, Stroke using 3D CT images of brain.
+<li>Developed and implemented Deep Learning Models for detecting Intracranial Hemorrhage and its subtypes using 3D CT images of brain.<li>
+The network architecture is capable of utilizing any form of CT data - Strongly labelled (labels available for each slice), Weakly labelled (labels available for each 3D scan), and Unlabelled.
 <br /></li>
 </ul>
 </div>
@@ -1222,8 +1230,44 @@
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Robust 3D Object Detection for Autonomous Vehicles using Sensor Fusion</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="files/cs838_project_report_final.pdf" target="_blank" rel="noopener">PDF Report</a></h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://github.com/divatekodand/cs838_project" target="_blank" rel="noopener">Code</a></h4>
+            <div class="text-muted exp-meta">
+              Sept 2019 –
+              
+                Dec 2019
+              
+              
+            </div>
+            <div class="card-text">In this work, we explore the viability of augmenting the true point cloud (data obtained from lidar sensor) with pseudo point-cloud data generated from a combination of monocular image and range view of true lidar data. In particular, we explore if such an augmentation technique aids the downstream task of 3D Object Detection. </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
             <h4 class="card-title exp-title text-muted mt-0 mb-1">SerFer: Serverless Inference of Machine Learning Models</h4>
-            <h4 class="card-title exp-company text-muted my-0"><a href="files/serfer.pdf" target="_blank" rel="noopener">PDF</a></h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="files/serfer.pdf" target="_blank" rel="noopener">PDF Report</a></h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://github.com/divatekodand/SerFer" target="_blank" rel="noopener">Code</a></h4>
             <div class="text-muted exp-meta">
               Jan 2019 –
               
@@ -1231,7 +1275,7 @@
               
               
             </div>
-            <div class="card-text">SerFer is a framework for serving Deep Learning queries built on top on Serverless Computing Platform (AWS Lambda). It distributes the computation across several lambda functions by splitting both the Deep Learning Model, as well as the input query.</div>
+            <div class="card-text">SerFer is a framework for serving Deep Learning queries built on top on Serverless Computing Platform (AWS Lambda). It distributes the computation across several lambda functions by splitting both the Deep Learning Model, as well as the input query (Model Parallelism and Data Parallelism).</div>
           </div>
         </div>
       </div>
